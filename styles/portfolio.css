@@ -7,12 +7,13 @@
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
-
+}
 nav{    
     justify-content: space-between;
     align-items: center;
     margin: 50px 200px;
-};
+}
+
 .nav-title {
         font-size: 45px;
         font-weight: 800;   
@@ -52,3 +53,32 @@ nav {
     cursor: pointer;
 }
 /* banner styles */
+.banner-greeting {
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title {
+    font-size: 85px;
+    font-weight: bold;
+} 
+
+.banner-paragraph {
+    font-size: 18px;
+    color: #757575;
+}
+
+.banner {
+    display: flex;
+    align-items: center;       /* vertical center */
+    justify-content: space-between;  /* text left, pic right */
+    gap: 20px;                 /* space between text & pic */
+  
+  .banner-content {
+              /* text area */
+    max-width: 580px;
+  }
+  
+  .banner-image {                 /* image area */
+    display: flex;
+    justify-content:space-between;
+  }
