@@ -53,6 +53,13 @@ nav {
     cursor: pointer;
 }
 /* banner styles */
+.header {
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position:top left, bottom right ;
+}
+
+
 .banner-greeting {
     font-size: 45px;
     font-weight: 600;
@@ -68,10 +75,9 @@ nav {
 }
 
 .banner {
-    display: flex;
-    align-items: center;       /* vertical center */
+    display: flex;      /* vertical center */
     justify-content: space-between;  /* text left, pic right */
-    gap: 20px;                 /* space between text & pic */
+    margin: 0 35px 0 200px;
   
   .banner-content {
               /* text area */
@@ -82,3 +88,5 @@ nav {
     display: flex;
     justify-content:space-between;
   }
+
+
