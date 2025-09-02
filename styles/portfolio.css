@@ -1,0 +1,53 @@
+/* Comment  */  
+/* Portfolio CSS */
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+
+nav{    
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 200px;
+};
+.nav-title {
+        font-size: 45px;
+        font-weight: 800;   
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin: 20px;
+}
+
+.dark-2 {
+    color: #474747;
+}   
+
+.text-primary {
+    color:#FF6E09;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+.btn-primary {
+    background-color:#FD6E0A;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
